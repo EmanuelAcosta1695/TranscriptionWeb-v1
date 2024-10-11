@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* 100% del alto de la ventana */
+    background-color: #14181c;
+    overflow-y: 'scroll';
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Cambiado a flex-start */
+    align-items: center;
+    height: 100vh;
+    padding-top: 5%; /* Ajustar el espacio desde la parte superior */
+}
+
+.drop-zone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 80%; /* Ancho del contenedor de carga */
+    max-width: 600px; /* Ancho máximo del contenedor de carga */
+    margin-top: 0px; /* Espacio desde la parte superior */
+    margin-bottom: 20px; /* Espacio desde box */
+}
+
+.box {
+    border: 10px double #0f2133;
+    padding: 2%;
+    text-align: start;
+    justify-content: left;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 5%; /* Espacio entre drop-zone y box */
+    margin-bottom: 10%; /* Espacio desde la parte inferior */
+    display: flex; /* Eliminado las comillas alrededor de flex */
+    flex-direction: column; /* Eliminado las comillas alrededor de column */
+    color: white;
+    font-size: 15px;
+    position: relative;
+}
+
+.left-band,
+.right-band {
+    flex-grow: 0; /* Reducir el espacio flexible que ocupan */
+    width: 10%; /* Ancho deseado para las bandas laterales */
+    background-color: #0f2133;
+}
+
+.custom-bg-gradient {
+    background-color: #14181c;
+    border-bottom: 1px solid #0f2133;
+}
+
+#ControlTextarea1 {
+    resize: vertical;
+    min-height: 60px;
+    max-height: 300px;
+}

@@ -1,0 +1,17 @@
+{
+    "invalid-file": "The selected file is not valid. Please select a file with a valid extension.",
+    "file-uploaded": "File uploaded successfully",
+    "warning": "Only audio files without background noise and with good pronunciation will be perfectly transcribed.",
+    "suported-extensions": "Supported extensions are: ",
+    "audio-converted-error": "Error converting audio to text: ",
+    "transcribed-text": "Transcribed Text: ",
+    "audio-file-language": "What language is the file in?",
+    "convert-question": "Do you want to transcribe the selected audio?",
+    "download-text": "Download Text",
+    "download-word": "Download Word",
+    "download-pdf": "Download PDF",
+    "share-on-whatsapp": "Share on WhatsApp",
+    "convert-autio-to-text": "Convert",
+    "selected-audio-file": "Selected audio file",
+    "drag-and-drop-audio-file": "Drag and drop an audio file here or click to upload"
+}

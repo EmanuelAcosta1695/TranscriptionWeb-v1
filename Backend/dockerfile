@@ -1,0 +1,21 @@
+# Usa una imagen base de Python para el backend
+FROM python:3.9-slim AS backend
+
+# Establece el directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copia los archivos requerimientos al contenedor
+COPY requirements.txt .
+
+# Copia los archivos restantes del backend al contenedor
+COPY . .
+
+# Instala las dependencias del proyecto
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expone el puerto en el que se ejecuta tu aplicación Flask
+EXPOSE 8000
+
+# Comando para ejecutar tu aplicación FastAPI
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+

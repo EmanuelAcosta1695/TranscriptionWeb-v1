@@ -1,0 +1,86 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    // "incremental": true,
+    // "composite": true,
+    // "tsBuildInfoFile": "./.tsbuildinfo",
+    // "disableSourceOfProjectReferenceRedirect": true,
+    // "disableSolutionSearching": true,
+    // "disableReferencedProjectLoad": true,
+
+    /* Language and Environment */
+    "target": "esnext" /* Use esnext for the latest JavaScript features */,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ] /* Include standard library declarations */,
+    "allowJs": false /* Disallow JavaScript files */,
+    // "checkJs": true,
+    // "maxNodeModuleJsDepth": 1,
+    "jsx": "react-jsx" /* Use React JSX transform */,
+
+    /* Modules */
+    "module": "esnext" /* Use ESNext module system */,
+    "moduleResolution": "node" /* Use Node.js module resolution */,
+    "baseUrl": "./" /* Base directory for resolving paths */,
+    "paths": {} /* Custom module resolution paths */,
+    "resolveJsonModule": true /* Enable importing JSON files */,
+
+    /* Emit */
+    "noEmit": true /* Disable emitting files */,
+    // "declaration": true,
+    // "declarationMap": true,
+    // "emitDeclarationOnly": true,
+    // "sourceMap": true,
+    // "inlineSourceMap": true,
+    // "outFile": "./",
+    // "outDir": "./",
+    // "removeComments": true,
+    // "importHelpers": true,
+    // "downlevelIteration": true,
+    // "sourceRoot": "",
+    // "mapRoot": "",
+    // "inlineSources": true,
+    // "emitBOM": true,
+    // "newLine": "crlf",
+    // "stripInternal": true,
+    // "noEmitHelpers": true,
+    // "noEmitOnError": true,
+    // "preserveConstEnums": true,
+    // "declarationDir": "./",
+
+    /* Interop Constraints */
+    "isolatedModules": true /* Transpile each file in isolation */,
+    "allowSyntheticDefaultImports": true /* Allow synthetic default imports */,
+    "esModuleInterop": true /* Emit additional JS for CommonJS interop */,
+    // "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true /* Ensure consistent casing in file names */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options */,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictBindCallApply": true,
+    // "strictPropertyInitialization": true,
+    // "noImplicitThis": true,
+    // "useUnknownInCatchVariables": true,
+    // "alwaysStrict": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "exactOptionalPropertyTypes": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noUncheckedIndexedAccess": true,
+    // "noImplicitOverride": true,
+    // "noPropertyAccessFromIndexSignature": true,
+    // "allowUnusedLabels": true,
+    // "allowUnreachableCode": true,
+
+    /* Completeness */
+    "skipLibCheck": true /* Skip type checking all .d.ts files */
+  },
+  "include": ["src/**/*", "i18n.js"] /* Include all files in src directory */,
+  "exclude": ["node_modules"] /* Exclude node_modules directory */
+}
